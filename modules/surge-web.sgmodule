@@ -1,5 +1,5 @@
 #!name=Surge Web Controller
-#!desc=Rewrite the url
+#!desc=Rewrite the surge web controller url
 
 [General]
 force-http-engine-hosts=%APPEND% surge.dev, www.surge.dev
