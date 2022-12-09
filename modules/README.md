@@ -1,3 +1,3 @@
 [CDN][jsdelivr]
 
-[jsdelivr]: https://cdn.jsdelivr.net/gh/9CDN/surge@main/modules/
+[jsdelivr]: https://purge.jsdelivr.net/gh/9CDN/surge@main/modules/
