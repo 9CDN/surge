@@ -8,4 +8,4 @@ force-http-engine-hosts=%APPEND% surge.dev, www.surge.dev
 hostname = %INSERT% surge.dev, www.surge.dev
 
 [URL Rewrite]
-^https?://(|www\.)surge\.com http://surge:30002/ 302
+^https?://(|www\.)surge\.com http://192.168.9.2:30002 302
