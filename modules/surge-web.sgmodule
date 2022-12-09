@@ -1,0 +1,11 @@
+#!name=Surge Web Controller
+#!desc=Rewrite the url
+
+[General]
+force-http-engine-hosts=%APPEND% surge.dev, www.surge.dev
+
+[MITM]
+hostname = %INSERT% surge.dev, www.surge.dev
+
+[URL Rewrite]
+^https?://(|www\.)surge\.com http://surge:30002 302
